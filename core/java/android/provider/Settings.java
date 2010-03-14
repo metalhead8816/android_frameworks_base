@@ -1421,6 +1421,12 @@ public final class Settings {
          * @hide
          */
         public static final String NOTIFICATION_SCREEN_ON = "notification_screen_on";
+        
+        /**
+         * Whether to wake the screen with the trackball. The value is boolean (1 or 0).
+         * @hide
+         */
+        public static final String TRACKBALL_WAKE_SCREEN = "trackball_wake_screen";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
@@ -2060,11 +2066,6 @@ public final class Settings {
          * 0 = only allow installing from the Android Market
          */
         public static final String INSTALL_NON_MARKET_APPS = "install_non_market_apps";
-
-        /**
-         * @hide
-         */
-        public static final String APPS2SD = "apps2sd";
 
         /**
          * Comma-separated list of location providers that activities may access.
